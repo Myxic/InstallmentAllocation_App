@@ -1,20 +1,15 @@
 ﻿<Properties StartupConfiguration="{025E742B-0356-456B-9141-314FD64B207D}|Default">
-  <MonoDevelop.Ide.ItemProperties.InstallmentAllocation__App PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InstallmentAllocation_App/InstallmentAllocation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InstallmentAllocation_App/Program.cs">
     <Files>
       <File FileName="InstallmentAllocation_App/Program.cs" Line="93" Column="22" />
       <File FileName="InstallmentAllocation_App/InstallmentAllocation.cs" Line="27" Column="32" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InstallmentAllocation__App PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
 </Properties>
