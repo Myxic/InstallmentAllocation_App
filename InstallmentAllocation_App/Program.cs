@@ -88,6 +88,7 @@ class Program
         Console.WriteLine("25% installmental Payment with Six-Month Plan , Type 5");
         Console.WriteLine("50% installmental Payment with Yearly , Type 6");
         string? plan = Console.ReadLine();
+        Console.Clear();
 
 
         switch (plan)

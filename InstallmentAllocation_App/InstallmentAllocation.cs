@@ -19,12 +19,12 @@ namespace InstallmentAllocation_App
             Console.Clear();
             decimal percentage = (decimal)(4d / 100);
             _Today = DateTime.Now;
-
+            
             decimal installment = Cash * percentage;
 
             decimal i = 0;
 
-           for (i = installment; i <= Cash + 1; i += installment)
+           for (i = installment; i <= Cash ; i += installment)
             {
                 Console.WriteLine($"Appointed Date To Recieve payment {_Today.ToLongDateString()}," +
                     $"  Amount Expected ₦ {installment},Total Amount Recieved ₦ {i} " +
@@ -41,10 +41,10 @@ namespace InstallmentAllocation_App
 
             decimal installment = Cash * percentage;
 
-            for (decimal i = installment; i <= Cash + 1; i += installment)
+            for (decimal i = installment; i <= Cash ; i += installment)
             {
                 Console.WriteLine($"Appointed Date To Recieve payment {_Today.ToLongDateString()}," +
-                    $"  Amount Expected ₦ {installment},Total Amount Recieved ₦ {i} " +
+                    $"  Amount Expected ₦ {installment},Total Amount Recieved (Expected) ₦ {i} " +
                     $" For Product {product} by Customer {user.ToUpper()}");
    
                 _Today = _Today.AddDays(7);
@@ -59,10 +59,10 @@ namespace InstallmentAllocation_App
 
             decimal installment = Cash * percentage;
 
-            for (decimal i = installment; i <= Cash + 1; i += installment)
+            for (decimal i = installment; i <= Cash ; i += installment)
             {
                 Console.WriteLine($"Appointed Date To Recieve payment {_Today.ToLongDateString()}," +
-                    $"  Amount Expected ₦ {installment},Total Amount Recieved ₦ {i} " +
+                    $"  Amount Expected ₦ {installment},Total Amount Recieved  (Expected) ₦ {i} " +
                     $" For Product {product} by Customer {user.ToUpper()}");
     
                 _Today = _Today.AddDays(14);
@@ -77,10 +77,10 @@ namespace InstallmentAllocation_App
 
             decimal installment = Cash * percentage;
 
-            for (decimal i = installment; i <= Cash + 1; i += installment)
+            for (decimal i = installment; i <= Cash ; i += installment)
             {
                 Console.WriteLine($"Appointed Date To Recieve payment {_Today.ToLongDateString()}," +
-                    $"  Amount Expected ₦ {installment},Total Amount Recieved ₦ {i} " +
+                    $"  Amount Expected ₦ {installment},Total Amount Recieved  (Expected) ₦ {i} " +
                     $" For Product {product} by Customer {user.ToUpper()}");
           
                 _Today = _Today.AddMonths(1);
@@ -94,10 +94,10 @@ namespace InstallmentAllocation_App
 
             decimal installment = Cash * percentage;
 
-            for (decimal i = installment; i <= Cash + 1; i += installment)
+            for (decimal i = installment; i <= Cash ; i += installment)
             {
                 Console.WriteLine($"Appointed Date To Recieve payment {_Today.ToLongDateString()}," +
-                    $"  Amount Expected ₦ {installment},Total Amount Recieved ₦ {i} " +
+                    $"  Amount Expected ₦ {installment},Total Amount Recieved  (Expected) ₦ {i} " +
                     $" For Product {product} by Customer {user.ToUpper()}");
               
                 _Today = _Today.AddMonths(6);
@@ -111,10 +111,10 @@ namespace InstallmentAllocation_App
 
             decimal installment = Cash * percentage;
 
-            for (decimal i = installment; i <= Cash + 1; i += installment)
+            for (decimal i = installment; i <= Cash ; i += installment)
             {
                 Console.WriteLine($"Appointed Date To Recieve payment {_Today.ToLongDateString()}," +
-                    $"  Amount Expected ₦ {installment},Total Amount Recieved ₦ {i} " +
+                    $"  Amount Expected ₦ {installment},Total Amount Recieved  (Expected) ₦ {i} " +
                     $" For Product {product} by Customer {user.ToUpper()}");
              
                 _Today = _Today.AddYears(1);
