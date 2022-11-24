@@ -1,0 +1,55 @@
+﻿using System;
+
+
+namespace InstallmentAllocation_App
+{
+    public class InstallmentAllocation
+    {
+        private static  DateTime _Today;
+        public InstallmentAllocation()
+        {
+            _Today = DateTime.Now;
+        }
+
+        //daily plan
+        private static void DailyPlan(decimal Cash)
+        {
+            
+        }
+        //weekyplan
+        private static void WeeklyPlan(decimal Cash)
+        {
+
+        }
+        //biweeky
+        private static void BiWeeklyPan(decimal Cash)
+        {
+
+        }
+
+        //monthly
+        private static void Monthly(decimal Cash)
+        {
+
+        }
+        //6-month
+        private static void SixMonthPlan(decimal Cash)
+        {
+
+        }
+        //one year plan
+        private static void OneYearPlan(decimal Cash)
+        {
+
+        }
+        private static float Allocation(int num)
+        {
+            int FullPrecent = 100;
+            float FractionAllocation = num / FullPrecent;
+
+            return FractionAllocation;
+        }
+
+    }
+}
+

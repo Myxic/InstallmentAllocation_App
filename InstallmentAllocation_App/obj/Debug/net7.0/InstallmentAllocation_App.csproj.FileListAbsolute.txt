@@ -1,0 +1,15 @@
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/bin/Debug/net7.0/InstallmentAllocation_App
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/bin/Debug/net7.0/InstallmentAllocation_App.deps.json
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/bin/Debug/net7.0/InstallmentAllocation_App.runtimeconfig.json
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/bin/Debug/net7.0/InstallmentAllocation_App.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/bin/Debug/net7.0/InstallmentAllocation_App.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.csproj.AssemblyReference.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.AssemblyInfoInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.AssemblyInfo.cs
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/refint/InstallmentAllocation_App.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/InstallmentAllocation_App.genruntimeconfig.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/InstallmentAllocation_App/InstallmentAllocation_App/obj/Debug/net7.0/ref/InstallmentAllocation_App.dll

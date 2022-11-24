@@ -1,0 +1,20 @@
+﻿using System;
+
+
+namespace InstallmentAllocation_App;
+class Program
+{
+    static void Main(string[] args)
+    {
+        DateTime hey = DateTime.Now;
+        Program.Run();
+    }
+    private static void Run()
+    {
+        Console.WriteLine("Hello");
+
+        float hey = 33 / 100;
+        Console.WriteLine(hey);
+    }
+}
+
