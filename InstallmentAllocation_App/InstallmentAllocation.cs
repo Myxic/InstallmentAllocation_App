@@ -120,12 +120,9 @@ namespace InstallmentAllocation_App
                 _Today = _Today.AddYears(1);
             }
         }
-        //private static double Allocation(int num)
-        //{
-        //    double FullPrecent = 100d;
-        //    double FractionAllocation = num / FullPrecent;
+        //private static decimal Percentage()
+        //{ 
 
-        //    return FractionAllocation;
         //}
 
     }

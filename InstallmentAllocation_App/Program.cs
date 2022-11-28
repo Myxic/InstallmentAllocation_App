@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        DateTime hey = DateTime.Now;
+     
         Run();
     }
     private static void Run()
@@ -17,6 +17,7 @@ class Program
         string User = Username();
         string product = Product();
         decimal Fee = Amount();
+        //Console.WriteLine(Fee);
         Records.Add(User, Fee);
         Console.Clear();
         Console.WriteLine("Note: 5% charges fees are attached to installmental payments");
@@ -57,20 +58,30 @@ class Program
 
         return ProductItem;
     }
-    private static decimal Amount()
+    private  static decimal Amount()
     {
         Console.Write("Enter Amount owed :  ₦ ");
         string? Fee = Console.ReadLine();
-        
+
+
+
         bool IsValid = decimal.TryParse(Fee, out decimal ValidAmount);
-            if (!IsValid)
-            {
+        if (!IsValid || ValidAmount < 0)
+        {
             Console.Clear();
-            Console.WriteLine("Invalid");
-            Amount();
-            }
+            Console.WriteLine("Invalid Format");
+            return Amount();
+        }
+        if (IsValid)
+        {
+            ValidAmount = Convert.ToDecimal(Fee);
+            
+        }
+
 
         return ValidAmount;
+       
+
     }
     private static void Option(Dictionary<string, decimal> Records, string user, string product)
     {
