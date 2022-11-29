@@ -32,7 +32,7 @@ class Program
 
     private static string Username()
     {
-        Console.Write("Enter Customer name: ");
+        Console.Write("Enter Customer Name: ");
         string? Customer = Console.ReadLine();
       
         if (Customer.Trim() == "")
@@ -46,7 +46,7 @@ class Program
     }
     private static string Product()
     {
-        Console.Write("Enter Product name: ");
+        Console.Write("Enter Product Name: ");
         string? ProductItem = Console.ReadLine();
 
         if (ProductItem.Trim() == "")
@@ -60,7 +60,7 @@ class Program
     }
     private  static decimal Amount()
     {
-        Console.Write("Enter Amount owed :  ₦ ");
+        Console.Write("Enter Amount Owed :  ₦ ");
         string? Fee = Console.ReadLine();
 
 
