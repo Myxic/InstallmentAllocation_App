@@ -29,9 +29,9 @@ namespace InstallmentAllocation_App
             
             decimal installment = Cash * percentage;
 
-            decimal i = 0;
+            
 
-           for (i = installment; i <= Cash ; i += installment)
+           for (decimal i = installment; i <= Cash ; i += installment)
             {
                 Console.WriteLine($"Appointed Date To Recieve payment {_Today.ToLongDateString()}," +
                     $"  Amount Expected ₦ {installment},Total Amount Recieved ₦ {i} " +

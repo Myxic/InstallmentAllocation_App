@@ -92,7 +92,7 @@ class Program
 
 
         Console.WriteLine("Select a Plan ");
-        Console.WriteLine("4% installmental Payment with Daily Plan, Type 1 \n "+
+        Console.WriteLine("4% installmental Payment with Daily Plan, Type 1 \n"+
             "5% installmental Payment with Weekly Plan , Type 2 \n"  +
             "10% installmental Payment with Bi-Weekly Plan , Type 3 \n" +
             "20% installmental Payment with Monthly Plan , Type 4 \n" +

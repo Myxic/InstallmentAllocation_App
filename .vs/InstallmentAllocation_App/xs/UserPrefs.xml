@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="InstallmentAllocation_App/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InstallmentAllocation_App/InstallmentAllocation.cs">
     <Files>
-      <File FileName="InstallmentAllocation_App/Program.cs" Line="63" Column="38" />
-      <File FileName="InstallmentAllocation_App/InstallmentAllocation.cs" Line="124" Column="13" />
+      <File FileName="InstallmentAllocation_App/Program.cs" Line="95" Column="79" />
+      <File FileName="InstallmentAllocation_App/InstallmentAllocation.cs" Line="34" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
