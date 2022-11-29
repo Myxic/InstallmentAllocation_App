@@ -39,7 +39,7 @@ class Program
         {
             Console.Clear();
             Console.WriteLine("Invalid");
-            Username();
+            return Username();
         }
         
         return Customer.Trim();
@@ -53,10 +53,10 @@ class Program
         {
             Console.Clear();
             Console.WriteLine("Invalid");
-            Product();
+            return Product();
         }
 
-        return ProductItem;
+        return ProductItem.Trim();
     }
     private  static decimal Amount()
     {
