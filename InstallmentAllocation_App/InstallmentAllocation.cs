@@ -5,6 +5,12 @@ namespace InstallmentAllocation_App
 {
     public class InstallmentAllocation
     {
+        private const double FourPercent = 4d / 100;
+        private const double FivePercent = 5d / 100;
+        private const double TenPercent = 10d / 100;
+        private const double TwentyPercent = 20d / 100;
+        private const double TwentyFivePercent = 25d / 100;
+        private const double FiftyPercent = 50d / 100;
         private static  DateTime _Today;
         public InstallmentAllocation()
         {
@@ -17,7 +23,8 @@ namespace InstallmentAllocation_App
         public static void DailyPlan(decimal Cash, string user, string product)
         {
             Console.Clear();
-            decimal percentage = (decimal)(4d / 100);
+           
+            decimal percentage = (decimal)(FourPercent);
             _Today = DateTime.Now;
             
             decimal installment = Cash * percentage;
@@ -36,7 +43,7 @@ namespace InstallmentAllocation_App
         //weekyplan
         public static void WeeklyPlan(decimal Cash, string user, string product)
         {
-            decimal percentage = (decimal)(5d / 100);
+            decimal percentage = (decimal)(FivePercent);
             _Today = DateTime.Now;
 
             decimal installment = Cash * percentage;
@@ -54,7 +61,7 @@ namespace InstallmentAllocation_App
         //biweeky
         public static void BiWeeklyPan(decimal Cash, string user, string product)
         {
-            decimal percentage = (decimal)(10d / 100);
+            decimal percentage = (decimal)(TenPercent);
             _Today = DateTime.Now;
 
             decimal installment = Cash * percentage;
@@ -72,7 +79,7 @@ namespace InstallmentAllocation_App
         //monthly
         public static void Monthly(decimal Cash, string user, string product)
         {
-            decimal percentage = (decimal)(20d / 100);
+            decimal percentage = (decimal)(TwentyPercent);
             _Today = DateTime.Now;
 
             decimal installment = Cash * percentage;
@@ -89,7 +96,7 @@ namespace InstallmentAllocation_App
         //6-month
         public static void SixMonthPlan(decimal Cash, string user, string product)
         {
-            decimal percentage = (decimal)(25d / 100);
+            decimal percentage = (decimal)(TwentyFivePercent);
             _Today = DateTime.Now;
 
             decimal installment = Cash * percentage;
@@ -106,7 +113,7 @@ namespace InstallmentAllocation_App
         //one year plan
         public static void OneYearPlan(decimal Cash, string user, string product)
         {
-            decimal percentage = (decimal)(50d / 100);
+            decimal percentage = (decimal)(FiftyPercent);
             _Today = DateTime.Now;
 
             decimal installment = Cash * percentage;

@@ -66,7 +66,7 @@ class Program
 
 
         bool IsValid = decimal.TryParse(Fee, out decimal ValidAmount);
-        if (!IsValid || ValidAmount < 0)
+        if (!IsValid || ValidAmount <= 0)
         {
             Console.Clear();
             Console.WriteLine("Invalid Format");
@@ -92,12 +92,12 @@ class Program
 
 
         Console.WriteLine("Select a Plan ");
-        Console.WriteLine("4% installmental Payment with Daily Plan, Type 1");
-        Console.WriteLine("5% installmental Payment with Weekly Plan , Type 2");
-        Console.WriteLine("10% installmental Payment with Bi-Weekly Plan , Type 3");
-        Console.WriteLine("20% installmental Payment with Monthly Plan , Type 4");
-        Console.WriteLine("25% installmental Payment with Six-Month Plan , Type 5");
-        Console.WriteLine("50% installmental Payment with Yearly , Type 6");
+        Console.WriteLine("4% installmental Payment with Daily Plan, Type 1 \n "+
+            "5% installmental Payment with Weekly Plan , Type 2 \n"  +
+            "10% installmental Payment with Bi-Weekly Plan , Type 3 \n" +
+            "20% installmental Payment with Monthly Plan , Type 4 \n" +
+            "25% installmental Payment with Six-Month Plan , Type 5 \n"+ 
+            "50% installmental Payment with Yearly , Type 6");
         string? plan = Console.ReadLine();
         Console.Clear();
 
